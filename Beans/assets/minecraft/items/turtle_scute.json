@@ -1,0 +1,19 @@
+{
+	"model": {
+		"type": "select",
+		"property": "custom_model_data",
+		"fallback": {
+			"type": "model",
+			"model": "item/turtle_scute"
+		},
+		"cases": [
+			{
+				"when": "bean",
+				"model": {
+					"type": "model",
+					"model": "item/bean"
+				}
+			}
+		]
+	}
+}
